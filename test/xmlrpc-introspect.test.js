@@ -1,7 +1,5 @@
-define(['xmlrpc-introspect/xmlrpc-introspect',
-        'chai'],
-function(introspect, chai) {
-  var expect = chai.expect;
+define(['xmlrpc-introspect'],
+function(introspect) {
 
   describe("xmlrpc-introspect", function() {
     
